@@ -1,0 +1,171 @@
+%Proposal Upload must be a .pdf file.
+% On the upload form, for Title - enter a brief file name such as your last name + "Grant Proposal"
+% Proposal upload file should include the following (in order)
+% Project Title and Applicant's Name
+% 500 Word Proposal Narrative with no more than 2 images embedded in the narrative
+% Project Budget
+% Literature Cited
+\documentclass[11pt,a4paper,oneside]{article}
+\usepackage[english,activeacute]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75]{geometry}
+\usepackage{ragged2e}
+\usepackage[biblabel,]{cite}
+
+% \usepackage[numbers,sort]{natbib}
+\usepackage{gensymb}
+\usepackage{cmbright}
+\usepackage{graphicx}
+% \usepackage{sidecap}
+\usepackage[hidelinks]{hyperref}
+\renewcommand{\rmdefault}{phv}
+\renewcommand{\sfdefault}{phv}
+\SetSymbolFont{largesymbols}{normal}{OMX}{iwona}{m}{n}
+\setcounter{secnumdepth}{0}
+% \renewcommand{\thebibliographyname}{Literature cited}
+\renewcommand\citeleft{(}
+\renewcommand\citeright{)}
+\renewcommand{\refname}{Literature Cited}
+% \section*{\refname}
+%------------------------------------
+
+\title{Water Quality and Trophic Ecologic from Talampaya river (La Rioja, Argentina)}
+\date{}
+\author{Melina Celeste Crettaz Minaglia}
+
+\begin{document}
+% Project Title and Applicant's Name
+
+% 500 Word Proposal Narrative with no more than 2 images embedded in the narrative PONER Dos IMAGENES
+% Key to evaluation criteria.
+% Big Picture: How well did the applicant demonstrate an understanding of the big picture/importance of the proposed investigation?
+% Hypothesis: How well was the hypothesis or research question stated?
+% Methodology: How well was the methodology described?
+% Budget: How well were expenses, supplies, and equipment justified?
+% Appropriateness: How well did the proposal fit within the scope of the GIAR program?  Does the study conform to ethical standards?
+% Competitiveness: How competitive was this application in comparison to other proposals in this field?
+\maketitle
+\subsection*{Proposed Investigation}
+
+The project aims to study the elements of ecosystems from the permanent riverbed of the Talampayariver, in order to stablish the trophic relationships between its elements. The general objective is to increase the knowledge about how the system works and the conservation of the site.
+
+% \bigskip
+% \begin{figure}[h] %this figure will be at the right
+% \centering
+% \includegraphics[height=5cm]{ranita.png}
+% \caption{Talampaya National Park. Location (a), area (b) and river. Photos obtained from XXXX}
+% \end{figure}
+% \bigksip
+
+Talampaya National Park (La Rioja, Argentina) was designated as national park in 1997 and as UNESCO World Heritage Site in 2000 \cite{ (CITAR DESIGNACIONes)}. The ecological region is a special type of desert monte  (cita desierto). Average annual rainfall of around 160 mm is normally concentrated in summer, which generates temporary watercourses and leads to strong soil erosion. Hydrological resources are particularly scarce in the area, so they are mainly important to associated fauna and conservation. Nevertheless, no studies about water quality have been carried out there.
+% The presence of water inside a desert environment (CITAR donde dice desierto), in which temperatures reach 47 degrees C (personal observation) is crucial for the balance of the system as most water is ephimerous due to absortion and evaporation. 
+
+The water availability of Cajones allows the presence of highly endemic species, like \textit{Liolaemus talampaya} lizards \cite{cita descripción de especie} to inhabit the area.  In addition, the restricted access to Cajones and nearby sectors allows the presence of emblematic and endangered mammals such as the grey fox (\texit{Lycalopex gymnocercus}), condors (\textit{Vultur gryphus}), guanacos (\textit{Lama guanicoe}), peccaries (\textit{Pecari tajacu}) and specially cougars (\textit{Puma concolor}) and yagouarundis (\textit{Puma yagouarundi}). Particularly in Argentina, environmental conditions for felines have been impoverished, thus increasing the threats for all species, which makes the presence of felines strongly important in conservation \cite{SAREM, ver cita bien 2012}.
+
+We believe that Talampaya river is the habitat for amphibian and macroinvertebrates species which have not yet been recorded, but are essential for higher trophic levels. Therefore, our objective is to evaluate the water quality of the Talampaya river and to register the species of amphibians and macroinvertebrates that are associated to this watercourse at the Cajones canyon.
+
+Field sampling will take place in the Cajones Canyon (figura algo??), along the the permanent watercourse of Talampaya river. A Free and Open Source Geographic Information System software (QGIS) will be used to describe the morphometry of the basin \cite{Gaspari et al.,2013}. The parameters to be measured are: axial length, perimeter, area and average width, Gravenius %Revisar gravenius
+form and Gravenius compactness coefficients (Londoño Arango, 2001).
+%%%%%%%%%%%%%%%%
+In addition, relief and drainage parameters such as drainage density, drainage length, length of the main course, average slope and water residence time (Gaspari et al., 2013). Flow will be measured according to \cite{Sánchez et al., (2010)} by float methods. %buscar terminología en inglés en algún paper. 
+%%%%%%%%%%%%%%5
+Parameters of water quality such as temperature, dissolved oxygen, electric conductivity and total dissolved solids will be measured along the watercourse in order to find their spatial gradient. Moreover, water samples will be collected by determined nutrients of nitrogen and phosphorus and chemical demand of oxygen (APHA,xxxx) in order to estimate food available for microorganisms (heterotrophic and autotrophic). %oración muy larga. Reescribir e español así veo como la puedo achurar.
+
+Primary producers will be estimated through chlorophyll-a as a biomass estimator \cite{Marker et. al,1980}. Besides, to classify the water according to (CITA), ionic composition will be measured.
+
+Macroinvertebrates will be collected using a Surber net along the watercourse \cite{Darrigran et al., 2007}. Found organisms will be identified (Dominguez y Fernandez, 2009). Richness and diversity parameters will be taken according to \cite{Pla 2006}, functional food groups and ecosystemic atributtes \cite{Cummins et al. 2005}. Finally, amphibians will be collected with manual net exploring different microhabitats in Talampaya river and specific richness will be estimated.
+
+%permisos
+
+%The budget covers the rent of a 4-WD vehicle, the supplies and the fuel costs required to get to the Plateau. This trip will not assess activities that need the handling of live animals nor sampling (chytrid fungus, stomach-flushing, etc.), but only the visual recognition and location recording. The priority of this study is to define where this species is distributed throughout the plateau by registering the presence of individuals found on the different lagoons of the Plateau and their surroundings and then model this distribution through MaxEnt \cite{phillips2006}. Besides, the collection of this important data will allow the development of different GIS-based studies, such as those which involve the climate-change influence on the species distribution prediction \cite{ihlow2016} and the definition of a conservation status of the species.
+
+%Although this species is not categorized as endangered, the distribution range of the species is not accurately assessed and is significantly smaller than the currently proposed. The main reason for this is that these frogs are only found up to 90 feet far from the lagoons \cite{cei1969}. Moreover, the presence of frogs is not associated to all of the lagoons found in the area (\textit{pers. obs.}). Therefore this species is not present on all the lagoons of the plateau, and we want to define specifically in which ones in order to pursue the different studies involved in my Ph.D. project, to provide novel base knowledge about the species and to promote its habitat conservation.
+
+
+% \vfill
+% \begin{figure}[h] %this figure will be at the right
+% \centering
+% \includegraphics[height=10cm]{lugar.png}
+% \caption{At left, location of the plateau in Argentina. At right, dominant landscape and typical lagoon where the species is found. Photographs by Nicolas Kass and map from Google Inc.}
+% \end{figure}
+% \vfill
+
+
+% \bibliographystyle{unsrt}
+% \fontsize{9}{9}\selectfont
+% \bibliography{bib}
+
+%---------------
+
+\newpage
+
+\subsection*{Budget}
+
+\underline{Project budget:} \$1000
+
+\bigskip
+
+\noindent \underline{Items requested from Sigma Xi:}
+
+\begin{description} %completar
+	\item[\$350] Fuel (XXXX miles @ \$0.23 per mile)
+	\item[\$240] Water samples analysis: anoins, cations, dqo and nutrients
+	\item[\$60] Supplies for 5 days
+	\item[\$40] Camping for 5 days
+	\item[\$15] Samples bottles
+\end{description}
+
+
+% 	\newpage
+
+% \section*{Literature Cited}
+% \begingroup
+% \renewcommand{\section}[2]{}%
+% \begin{thebibliography}{6}
+
+% \bibitem{cei1969}
+% 	José Miguel Alfredo María Cei.
+% 	The patagonian telmatobiid fauna of the volcanic Somuncurá plateau of Argentina.
+% 	\textit{Journal of Herpetology},
+% 	pages 1–18,
+% 	1969.
+
+% \bibitem{akmentis2015}
+% 	Mauricio Sebastián Akmentins, Melina Alicia Velasco, Camila Alejandra Kass, and Federico Pablo Kacoliris. A new threat for the endangered frog \textit{Atelognathus reverberii}
+% (anura: Batrachylidae) in argentinean Patagonia.
+% 	\textit{Phyllomedusa: Journal of Herpetology},
+% 	14(1):63–66,
+% 	2015.
+
+% \bibitem{arellano2015}
+% 	Marı́a Luz Arellano, Mauricio Akmentis, Melina Alicia Velasco, Camila Kass, and Kacoliris Federico Pablo. First report of batrachochytrium dendrobatidis in \textit{Atelognathus reverberii}, a threatened species in Argentina.
+% 	\textit{Herpetological Review},
+% 	46:354 – 356,
+% 	2015.
+
+% \bibitem{iucn2015}
+% 	IUCN SSC Amphibian Specialist Group.
+% 	2016.
+% 	\textit{Atelognathus reverberii}.
+% 	The IUCN Red List of Threatened Species 2016: e.T2297A85301943.
+% 	\url{http://dx.doi.org/10.2305/IUCN.UK.2016-1.RLTS.T2297A85301943.en}.
+% 	Downloaded on 29 September 2017.
+
+% \bibitem{phillips2006}
+% 	Steven J Phillips, Robert P Anderson, and Robert E Schapire.
+% 	Maximum entropy modeling of species geographic distributions.
+% 	\texit{Ecological modelling},
+% 	190(3): 231–259,
+% 	2006.
+% \bibitem{ihlow2016}
+% 	Flora Ihlow, Julien Courant, Jean Secondi, Anthony Herrel, Rui Rebelo, G John Measey,
+% Francesco Lillo, F André De Villiers, Solveig Vogt, Charlotte De Busschere, et al.
+% 	Impacts of climate change on the global invasion potential of the african clawed frog \texit{Xenopus laevis}.
+% 	\textit{PloS one},
+% 	11(6):e0154869,
+% 	2016.
+
+% \end{thebibliography}
+% \endgroup
+
+\end{document}
